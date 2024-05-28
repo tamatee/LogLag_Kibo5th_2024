@@ -6,7 +6,7 @@ android {
     buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId "jp.jaxa.iss.kibo.rpc.defaultapk" +
-                ""
+                "LogLag"
         minSdkVersion 24
         targetSdkVersion 26
         versionCode 1

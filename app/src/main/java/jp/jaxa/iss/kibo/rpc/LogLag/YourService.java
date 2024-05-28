@@ -1,4 +1,4 @@
-package jp.jaxa.iss.kibo.rpc.defaultapk;
+package jp.jaxa.iss.kibo.rpc.LogLag;
 
 import org.opencv.core.Mat;
 
