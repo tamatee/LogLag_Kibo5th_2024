@@ -25,6 +25,10 @@ public class YourService extends KiboRpcService {
         Mat image = api.getMatNavCam();
         Mat image2 = api.getMatDockCam();
 
+        point = new Point(11d, -9.0d, 5.1d);
+        quaternion = new Quaternion(0.707f, 0f, 0f, 0.707f);
+        api.moveTo(point, quaternion, false);
+
         /* *********************************************************************** */
         /* Write your code to recognize type and number of items in the each area! */
         /* *********************************************************************** */
